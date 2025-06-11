@@ -40,7 +40,6 @@ export function HeroSection() {
            <Image
             src={profilePic}
             alt="Profesional de servicios de salud"
-            layout="fill"
             objectFit="cover"
             className="transform transition-transform duration-500 group-hover:scale-105"
             data-ai-hint="professional consultant"
