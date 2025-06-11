@@ -1,4 +1,8 @@
+
 import { config } from 'dotenv';
 config();
 
-import '@/ai/flows/optimize-landing-page.ts';
+// No flows are currently defined for this application.
+// If you add Genkit flows, import them here.
+// For example:
+// import '@/ai/flows/your-flow-name.ts';
