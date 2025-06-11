@@ -4,6 +4,7 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { PhoneOutgoing } from 'lucide-react';
+import profilePic from '@/public/profile.jpg';
 
 export function HeroSection() {
   const scrollToContact = () => {
@@ -35,9 +36,9 @@ export function HeroSection() {
             Contáctame Ahora <PhoneOutgoing className="ml-2 h-5 w-5" />
           </Button>
         </div>
-        <div className="relative aspect-video rounded-xl overflow-hidden shadow-2xl group">
+        <div className="relative w-full h-full rounded-lg overflow-hidden shadow-2xl group">
            <Image
-            src="https://placehold.co/600x400.png"
+            src={profilePic}
             alt="Profesional de servicios de salud"
             layout="fill"
             objectFit="cover"
